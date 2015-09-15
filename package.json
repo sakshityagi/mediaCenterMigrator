@@ -1,0 +1,19 @@
+{
+  "name": "youtubeMigrator",
+  "version": "1.0.0",
+  "description": "Script to migrate existing buildfire youtube data to new plugin data",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "buildfire",
+    "youtube",
+    "plugin"
+  ],
+  "author": "tyagi.sakshi09@gmail.com",
+  "dependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.2"
+  }
+}
