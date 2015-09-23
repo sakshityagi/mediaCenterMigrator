@@ -1,5 +1,5 @@
-# youtubeMigrator
-Script to migrate BuildFire existing youtube data to the new plugin data
+# mediaCenterMigrator
+Script to migrate BuildFire existing media center data to the new plugins data
 
 ### How to run
 
