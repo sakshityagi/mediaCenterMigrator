@@ -1,12 +1,13 @@
 "use strict";
-var youtubeData = require("./oldData");
-var YouTubeMigrator = require("./converterScript");
+var mediaData = require("./oldData");
+var MediaCenterMigrator = require("./converterScript");
 var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  var list = YouTubeMigrator.convert(youtubeData);
-  res.send(list);
+  MediaCenterMigrator.convert(mediaData, function (list) {
+    res.send(list);
+  });
 });
 
 var server = app.listen(3000, function () {

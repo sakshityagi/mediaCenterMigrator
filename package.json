@@ -1,7 +1,7 @@
 {
-  "name": "youtubeMigrator",
+  "name": "mediaCenterMigrator",
   "version": "1.0.0",
-  "description": "NodeJS script to migrate existing buildfire youtube data to new plugin data",
+  "description": "NodeJS script to migrate BuildFire existing media center data to the new plugins data",
   "main": "app.js",
   "scripts": {
     "test": "mocha"
@@ -9,10 +9,14 @@
   "keywords": [
     "buildfire",
     "youtube",
-    "plugin"
+    "plugin",
+    "vimeo",
+    "media"
   ],
   "author": "tyagi.sakshi09@gmail.com",
   "dependencies": {
-    "express": "*"
+    "async": "^1.4.2",
+    "express": "*",
+    "request": "^2.63.0"
   }
 }
